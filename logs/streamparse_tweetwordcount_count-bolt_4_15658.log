@@ -1,0 +1,9 @@
+2016-04-06 18:42:40,299 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:40,467 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:40,833 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:40,929 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:41,438 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:41,582 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:41,825 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:41,925 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:42,322 - streamparse.storm.component - ERROR - Received EOF while trying to read stdin from Storm, pipe appears to be broken, exiting.

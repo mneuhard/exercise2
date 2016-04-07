@@ -1,0 +1,20 @@
+2016-04-06 18:42:40,525 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:40,578 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:40,702 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:40,776 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:40,858 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:40,931 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:41,054 - streamparse.stdout - INFO - need for indent block
+2016-04-06 18:42:41,304 - streamparse.storm.component - ERROR - Exception in WordCounter.run()
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/streamparse/storm/component.py", line 489, in run
+    self._run()
+  File "/usr/lib/python2.7/site-packages/streamparse/storm/bolt.py", line 219, in _run
+    self.process(tup)
+  File "bolts/wordcount.py", line 31, in process
+    cur.execute("UPDATE Tweetwordcount SET count=%s WHERE word=%s", (word, self.counts[word]))
+ProgrammingError: operator does not exist: text = integer
+LINE 1: UPDATE Tweetwordcount SET count=E'the' WHERE word=2
+                                                         ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+
