@@ -1,0 +1,22 @@
+Setting up the Streaming Twitter application.
+
+1.) Clone the code from the git hub repository
+root@ip #git clone https://github.com/mneuhard/exercise2 exercise2
+2.) Create tweetwordcount StreamParse structure
+root@ip# sparse quickstart tweetwordcount
+root@ip# cd tweetwordcount
+root@ip# cp -r ../exercise2 .
+2.) Create the database
+root@ip# cd tweetwordcount
+root@ip# python db_setup.py
+3.) Run StreamParse
+root@ip# cd tweetwordcount
+root@ip# sparse run
+4.) Stop StreamParse
+Press Ctrl-C
+5.) Run the finalresults.py
+root@ip# python finalresults.py
+6.) Run the finalresults.py with a word
+root@ip# python finalresults.py hello
+7.) Run histogram.py with 2 numbers
+root@ip# python historgram.py 3 8
