@@ -1,5 +1,7 @@
 Setting up the Streaming Twitter application.
 
+All screenshots and documentation are in the documentation folder.
+
 1.) Clone the code from the git hub repository
 root@ip #git clone https://github.com/mneuhard/exercise2 exercise2
 2.) Create tweetwordcount StreamParse structure
